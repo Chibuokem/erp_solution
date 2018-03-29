@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+.search_result {
+  
+   
+    
+}
+.scrollToTop{
+	width:100px; 
+	height:130px;
+	padding:10px; 
+	text-align:center; 
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	top:400px;
+	right:40px;
+	display:block;
+	background: url('arrow_up.png') no-repeat 0px 20px;
+}
+
+@media all  and (max-width: 600px) {
+    .reduce{
+        font-size: 20px;
+    }
+
+.scrollToTop{
+	width:50px; 
+	height:70px;
+	padding:5px; 
+	text-align:center; 
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	top:75px;
+	right:40px;
+	display:block;
+	background: url('images/arrow_up.png') no-repeat 0px 20px;
+}
+}
+
+
+
